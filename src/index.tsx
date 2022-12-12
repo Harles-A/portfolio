@@ -7,11 +7,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom"
-import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
 import styles from './index.module.scss'
 import Navbar from './components/navbar/navbar';
 import GithubProjects from './components/githubprojects/githubProjects';
+import AboutMe from './components/aboutme/aboutMe';
+import Cv from './components/cv/cv';
+import Homepage from './components/homepage/homepage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -21,9 +22,9 @@ root.render(
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path='/' element={<App />}></Route>
-        <Route path='/example' element={<SomeExampleComponent />} />
-        <Route path='/first' element={<MyFirstComponent />} />
+        <Route path='/home' element={<Homepage />} />
+        <Route path='/aboutme' element={<AboutMe />} />
+        <Route path='/cv' element={<Cv />} />
         <Route path='/githubs' element={<GithubProjects />} />
       </Routes>
     </BrowserRouter>
