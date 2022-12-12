@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
@@ -25,7 +24,7 @@ root.render(
         <Route path='/home' element={<Homepage />} />
         <Route path='/aboutme' element={<AboutMe />} />
         <Route path='/cv' element={<Cv />} />
-        <Route path='/githubs' element={<GithubProjects />} />
+        <Route path='/github' element={<GithubProjects />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

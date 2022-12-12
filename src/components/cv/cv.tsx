@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from "./cv.module.scss"
 
 type CvProps = {
 
@@ -7,7 +8,7 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div>
-      Cv
+      CV
     </div>
   )
 }

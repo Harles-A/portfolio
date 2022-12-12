@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       <Link to="/homepage">Home</Link>
       <Link to="/aboutme">About Me</Link>
       <Link to="/cv">CV</Link>
-      <Link to="/githubs">GitHub</Link>
+      <Link to="/github">GitHub</Link>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from "./aboutMe.module.scss"
 
 type AboutMeProps = {
 
@@ -7,7 +8,7 @@ type AboutMeProps = {
 const AboutMe: React.FC<AboutMeProps> = () => {
   return (
     <div>
-      AboutMe
+      About Me
     </div>
   )
 }
