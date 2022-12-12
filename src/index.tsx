@@ -11,6 +11,7 @@ import MyFirstComponent from './components/myFirstComponent';
 import SomeExampleComponent from './components/example/someExampleComponent';
 import styles from './index.module.scss'
 import Navbar from './components/navbar/navbar';
+import GithubProjects from './components/githubprojects/githubProjects';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,6 +24,7 @@ root.render(
         <Route path='/' element={<App />}></Route>
         <Route path='/example' element={<SomeExampleComponent />} />
         <Route path='/first' element={<MyFirstComponent />} />
+        <Route path='/githubs' element={<GithubProjects />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
