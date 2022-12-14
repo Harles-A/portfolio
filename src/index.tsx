@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom"
-//import styles from './index.module.scss'
+import './index.module.scss'
 import Navbar from './components/navbar/navbar';
 import GithubProjects from './components/githubprojects/githubProjects';
 import AboutMe from './components/aboutme/aboutMe';
