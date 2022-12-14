@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom"
-import styles from './index.module.scss'
+//import styles from './index.module.scss'
 import Navbar from './components/navbar/navbar';
 import GithubProjects from './components/githubprojects/githubProjects';
 import AboutMe from './components/aboutme/aboutMe';
@@ -21,7 +21,7 @@ root.render(
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path='/home' element={<Homepage />} />
+        <Route path='/homepage' element={<Homepage />} />
         <Route path='/aboutme' element={<AboutMe />} />
         <Route path='/cv' element={<Cv />} />
         <Route path='/github' element={<GithubProjects />} />
