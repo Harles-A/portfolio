@@ -18,22 +18,10 @@ const GithubProjects: React.FC<GithubProjectsProps> = () => {
     }, [])
 
     return (
-        <div style={{
-          display: 'flex',
-          flexDirection: 'row',
-          flexWrap: 'wrap'
-        }}>
+        <div className={styles.gitmaincontainer} >
           {
             githubData && githubData.map(x => (
-              <div key={x.id} style={{
-                display: 'flex',
-                height: 120,
-                width: 200,
-                background: 'grey',
-                padding: '10px',
-                margin: '10px'
-                
-              }}>
+              <div key={x.id} className={styles.gitbox}>
                 <p>{x.name}</p>
                 <p>{x.description}</p>
                 < a href={x.html_url} target="_blank" rel="noreferrer">

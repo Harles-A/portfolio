@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .maincontainer {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-    background-color: bisque;
-}
+    background-image: linear-gradient(rgba(0,0,0,0.5), #009688), url(aboutmebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .aboutmebannertext {
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 20px;
+    font-family: "Playfair Display", serif;
+    font-size:x-large;
+  }
+
+  .aboutmetext {
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 250px;
+    font-family: "Playfair Display", serif;
+    font-size:large;
+
+  }

@@ -6,3 +6,26 @@
     align-items: center;
     justify-content: center;
 }
+
+.gitmaincontainer {
+    background-image: url(githubbgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+  }
+
+.gitbox {
+     display: flex;
+     height: 100px;
+     width: 180px;
+     background: gray;
+     padding: 10px;
+     margin: 10px;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     float:right
+}
+
+                

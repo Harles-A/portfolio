@@ -7,8 +7,9 @@ type HomepageProps = {
 
 const Homepage: React.FC<HomepageProps> = () => {
   return (
-    <div className={styles.mainbody}>
-      <p>Home</p>
+    <div className={styles.maincontainer}>
+      <h2 className={styles.welcomehome}>Welcome To My Portfolio</h2>
+        <p className={styles.homescreentext}>texttext</p>
     </div>
   )
 }

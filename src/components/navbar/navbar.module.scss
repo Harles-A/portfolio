@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
-
+    
 }
 
 .homelink {
@@ -24,6 +24,7 @@
     align-items: center;
     margin: 0.7rem 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
 }
 
 .cvlink {
@@ -39,6 +40,7 @@
     align-items: center;
     margin: 0.7rem 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
 }
 
 .aboutmelink {
@@ -54,6 +56,7 @@
     align-items: center;
     margin: 0.7rem 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
 }
 
 .githublink {
@@ -69,4 +72,41 @@
     align-items: center;
     margin: 0.7rem 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.homelink:hover {
+    transform: scale(1.4);
+}
+
+.cvlink:hover {
+    transform: scale(1.4);
+}
+
+.aboutmelink:hover {
+    transform: scale(1.4);
+}
+
+.githublink:hover {
+    transform: scale(1.4);
+}
+
+.homelink:active {
+
+    box-shadow: 5px 5px 10px #e05f19;
+}
+
+.cvlink:active {
+
+    box-shadow: 5px 5px 10px #e05f19;
+}
+
+.aboutmelink:active {
+
+    box-shadow: 5px 5px 10px #e05f19;
+}
+
+.githublink:active {
+
+    box-shadow: 5px 5px 10px #e05f19;
 }
