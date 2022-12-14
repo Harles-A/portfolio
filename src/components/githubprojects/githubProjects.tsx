@@ -36,7 +36,7 @@ const GithubProjects: React.FC<GithubProjectsProps> = () => {
               }}>
                 <p>{x.name}</p>
                 <p>{x.description}</p>
-                < a href={x.html_url} target="_blank">
+                < a href={x.html_url} target="_blank" rel="noreferrer">
                     <h5 className={styles.links}> Link</h5>
                 </a>
               </div>
