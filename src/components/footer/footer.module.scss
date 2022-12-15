@@ -1,0 +1,65 @@
+.footercontainer {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+
+}
+
+.mailiconfoot {
+    background-image: url(mailicon.png);
+    padding: 1rem;
+    cursor: pointer;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+
+}
+
+.giticonfoot {
+    background-image: url(github-mark.png);
+    background-size: contain;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+
+}
+
+.giticonfoot:hover {
+    transform: scale(1.4);
+}
+
+.giticonfoot:active {
+
+    box-shadow: 5px 5px 10px #e05f19;
+}
+
+.mailiconfoot:hover {
+    transform: scale(1.4);
+}
+
+.mailiconfoot:active {
+
+    box-shadow: 5px 5px 10px #e05f19;
+}

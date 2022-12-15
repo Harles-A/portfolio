@@ -12,6 +12,7 @@ import GithubProjects from './components/githubprojects/githubProjects';
 import AboutMe from './components/aboutme/aboutMe';
 import Cv from './components/cv/cv';
 import Homepage from './components/homepage/homepage';
+import Footer from './components/footer/footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -26,6 +27,7 @@ root.render(
         <Route path='/cv' element={<Cv />} />
         <Route path='/github' element={<GithubProjects />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

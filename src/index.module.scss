@@ -1,5 +1,9 @@
-.body {
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.4), #73736f), url(aboutmebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: aqua;
 }
